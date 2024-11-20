@@ -2,24 +2,28 @@
 
 1.Sprint page
 
-![Home(PickOne)](https://github.com/user-attachments/assets/2c8dcad0-97a8-4a08-af33-4892f4120e07)
+![Home(PickOne)](https://github.com/user-attachments/assets/320825ab-7f21-4e7b-b2a4-238b49a07eb8)
+
 
 
 2.Question page
 
-![Question](https://github.com/user-attachments/assets/e9a07265-4e29-4d70-9609-2f59c7d909f7)
+![Question](https://github.com/user-attachments/assets/1974464c-ba58-4af1-b655-ff52d9026c71)
+
 
 
 3.YesClick Design
 
-![YesClick](https://github.com/user-attachments/assets/ca8484c9-2996-4c0f-97e3-42711f8df15c)
+![YesClick](https://github.com/user-attachments/assets/34ec4d3e-29ad-45a2-bc9b-831e8f425980)
+
 
 
 4.NoClick Design
 
-![NoClick](https://github.com/user-attachments/assets/2c71d9ca-a4cb-4e38-9c83-a5bcc86fe614)
+![NoClick](https://github.com/user-attachments/assets/9d475f6a-777a-4383-a796-10be04cd83d5)
+
 
 
 5.Result page
 
-![Result](https://github.com/user-attachments/assets/7245ae3d-5f2d-4894-bd77-98b514591a24)
+![Result](https://github.com/user-attachments/assets/8acff588-905d-4835-9305-bc75549a28dd)
