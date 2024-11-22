@@ -27,3 +27,9 @@
 5.Result page
 
 ![Result](https://github.com/user-attachments/assets/8acff588-905d-4835-9305-bc75549a28dd)
+
+
+# Set up options
+
+![Choice](https://github.com/user-attachments/assets/a4c5d325-51c2-4160-90bd-b1592045dd15)
+
