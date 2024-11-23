@@ -13,6 +13,13 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xffFFCF06),
+        foregroundColor: const Color(0xffFFCF06),
+        title: const Center(
+          child: Text("Pick One",
+          style: TextStyle(
+            fontSize: 35,
+          ),)
+        )
       ),
     );
   }
