@@ -15,13 +15,13 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: const Color(0xffFFCF06),
         foregroundColor: Colors.white,
-        title: const Center(
+        title:  Center(
           child: Text("Pick One",
           style: TextStyle(
-            fontSize: 30,
-            fontFamily: GoogleFonts.dongle().fontFamily,
-          ),)
-        )
+              fontSize: 35,
+              fontFamily: GoogleFonts.anton().fontFamily,
+            )),
+          ),
       ),
       body: SingleChildScrollView(
         child: Column(
