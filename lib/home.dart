@@ -28,12 +28,13 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-                height: 45,
+                height: 60,
                 width: 320,
                 margin: const EdgeInsets.only(bottom: 10),
                 decoration: BoxDecoration(
-                  color: const Color(0xffcf6116),
-                  borderRadius: BorderRadius.circular(30),
+                  border: Border.all(color: const Color(0xffcf6116)),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
                   boxShadow: [
                     BoxShadow(
                       blurRadius: 10,
