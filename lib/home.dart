@@ -28,8 +28,21 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              alignment: Alignment.center,
-            )
+                height: 45,
+                width: 320,
+                margin: const EdgeInsets.only(bottom: 10),
+                decoration: BoxDecoration(
+                  color: const Color(0xffcf6116),
+                  borderRadius: BorderRadius.circular(30),
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 10,
+                      offset: const Offset(8, 5),
+                      color: Colors.black.withOpacity(0.5),
+                    )
+                  ],
+                ),
+            ),
           ],
         ),
       ),
