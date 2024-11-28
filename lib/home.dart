@@ -44,6 +44,44 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
+            Row(
+              children: [
+                Container(
+                  height: 700,
+                  width: 350,
+                  decoration: BoxDecoration(
+                    border:
+                        Border.all(color: const Color(0xffcf6116), width: 2),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        blurRadius: 10,
+                        offset: const Offset(8, 5),
+                        color: Colors.black.withOpacity(0.5),
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  height: 700,
+                  width: 350,
+                  decoration: BoxDecoration(
+                    border:
+                        Border.all(color: const Color(0xffcf6116), width: 2),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        blurRadius: 10,
+                        offset: const Offset(8, 5),
+                        color: Colors.black.withOpacity(0.5),
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
