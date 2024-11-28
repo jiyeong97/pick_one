@@ -15,34 +15,34 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: const Color(0xffFFCF06),
         foregroundColor: Colors.white,
-        title:  Center(
+        title: Center(
           child: Text("Pick One",
-          style: TextStyle(
-              fontSize: 35,
-              fontFamily: GoogleFonts.anton().fontFamily,
-            )),
-          ),
+              style: TextStyle(
+                fontSize: 35,
+                fontFamily: GoogleFonts.anton().fontFamily,
+              )),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-                height: 60,
-                width: 320,
-                margin: const EdgeInsets.only(bottom: 10),
-                decoration: BoxDecoration(
-                  border: Border.all(color: const Color(0xffcf6116),width: 2),
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(10),
-                  boxShadow: [
-                    BoxShadow(
-                      blurRadius: 10,
-                      offset: const Offset(8, 5),
-                      color: Colors.black.withOpacity(0.5),
-                    )
-                  ],
-                ),
+              height: 60,
+              width: 320,
+              margin: const EdgeInsets.only(bottom: 10),
+              decoration: BoxDecoration(
+                border: Border.all(color: const Color(0xffcf6116), width: 2),
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    blurRadius: 10,
+                    offset: const Offset(8, 5),
+                    color: Colors.black.withOpacity(0.5),
+                  )
+                ],
+              ),
             ),
           ],
         ),
