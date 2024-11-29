@@ -27,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const SizedBox(height: 40,),
             Container(
               height: 60,
               width: 320,
@@ -44,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
+            const SizedBox(height: 30,),
             Row(
               children: [
                 Container(
@@ -63,6 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
+                const SizedBox(width: 50,),
                 Container(
                   height: 700,
                   width: 350,
