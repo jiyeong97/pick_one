@@ -12,6 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffFFCF06),
       appBar: AppBar(
         backgroundColor: const Color(0xffFFCF06),
         foregroundColor: Colors.white,
@@ -29,11 +30,11 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const SizedBox(height: 40,),
             Container(
-              height: 60,
-              width: 320,
+              height: 120,
+              width: 400,
               margin: const EdgeInsets.only(bottom: 10),
               decoration: BoxDecoration(
-                border: Border.all(color: const Color(0xffcf6116), width: 2),
+                border: Border.all(color: const Color(0xffcf6116), width: 3),
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(10),
                 boxShadow: [
@@ -53,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 350,
                   decoration: BoxDecoration(
                     border:
-                        Border.all(color: const Color(0xffcf6116), width: 2),
+                        Border.all(color: const Color(0xffcf6116), width: 3),
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
@@ -71,13 +72,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 350,
                   decoration: BoxDecoration(
                     border:
-                        Border.all(color: const Color(0xffcf6116), width: 2),
+                        Border.all(color: const Color(0xffcf6116), width: 3),
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
                         blurRadius: 10,
-                        offset: const Offset(8, 5),
+                        offset: const Offset(-8, 5),
                         color: Colors.black.withOpacity(0.5),
                       )
                     ],
