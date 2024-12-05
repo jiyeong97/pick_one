@@ -54,8 +54,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 350,
                   decoration: BoxDecoration(
                     border:
-                        Border.all(color: const Color(0xffcf6116), width: 3),
-                    color: Colors.white,
+                        Border.all(color: Colors.white, width: 3),
+                    color:const Color(0xff035FFE),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
@@ -72,8 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 350,
                   decoration: BoxDecoration(
                     border:
-                        Border.all(color: const Color(0xffcf6116), width: 3),
-                    color: Colors.white,
+                        Border.all(color: Colors.white, width: 3),
+                    color: const Color(0xff035FFE),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
