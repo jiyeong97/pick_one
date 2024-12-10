@@ -9,6 +9,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  String yesImg = 'assets/img/Hands Sign Yes.png';
+  String noImg = 'assets/img/Hands Sign No.png';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,6 +97,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(15),
                         ),
+                        child: Image.asset(
+                          noImg,
+                        ),
                       ),
                     ],
                   ),
@@ -141,6 +147,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: Image.asset(
+                          noImg,
                         ),
                       ),
                     ],
