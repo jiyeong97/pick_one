@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   String yesImg = 'assets/img/yesSign.png';
-  String noImg = 'pick_oneassetsimg\noSign.png';
+  String noImg = 'assets/img/noSign.png';
 
   @override
   Widget build(BuildContext context) {
