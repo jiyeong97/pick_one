@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Row(
               children: [
                 Container(
-                  height: 700,
+                  height: 600,
                   width: 350,
                   padding: const EdgeInsets.all(5),
                   margin: const EdgeInsets.all(5),
@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Image.asset(
-                          noImg,
+                          yesImg,
                         ),
                       ),
                     ],
@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 50,
                 ),
                 Container(
-                  height: 700,
+                  height: 600,
                   width: 350,
                   padding: const EdgeInsets.all(5),
                   margin: const EdgeInsets.all(5),
