@@ -20,11 +20,13 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: const Color(0xffFFCF06),
         foregroundColor: Colors.white,
         title: Center(
-          child: Text("Pick One",
-              style: TextStyle(
-                fontSize: 35,
-                fontFamily: GoogleFonts.anton().fontFamily,
-              )),
+          child: Text(
+            "Pick One",
+            style: TextStyle(
+              fontSize: 35,
+              fontFamily: GoogleFonts.anton().fontFamily,
+            ),
+          ),
         ),
       ),
       body: SingleChildScrollView(
@@ -86,6 +88,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(35),
                         ),
+                        child: Center(
+                          child: Text(
+                            'Yes',
+                            style: TextStyle(
+                              fontSize: 30,
+                              fontFamily: GoogleFonts.cabin().fontFamily,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ),
                       ),
                       const SizedBox(
                         height: 50,
@@ -136,6 +148,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(35),
+                        ),
+                        child: Center(
+                          child: Text(
+                            'No',
+                            style: TextStyle(
+                              fontSize: 30,
+                              fontFamily: GoogleFonts.cabin().fontFamily,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
                         ),
                       ),
                       const SizedBox(
