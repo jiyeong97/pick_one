@@ -66,6 +66,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   )
                 ],
               ),
+              child: Center(
+                          child: Text(
+                            'Question',
+                            style: TextStyle(
+                              fontSize: 30,
+                              fontFamily: GoogleFonts.cabin().fontFamily,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ),
             ),
             const SizedBox(
               height: 30,
