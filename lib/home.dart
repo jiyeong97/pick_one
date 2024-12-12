@@ -12,6 +12,20 @@ class _HomeScreenState extends State<HomeScreen> {
   String yesImg = 'assets/img/yesSign.png';
   String noImg = 'assets/img/noSign.png';
 
+  void questions(){
+    String Q1 = 'Is it cold outside?';
+    String Q2 = 'Is there snow outside?';
+    String Q3 = 'Are the trees turning yellow and red?';
+    String Q4 = 'Are you planning to spend a lot of time indoors?';
+    String Q5 = 'Do you want to look cool?';
+    String Q6 = 'Do you need outerwear?';
+    String Q7 = 'Do you want to wear dark colors?';
+    String Q8 = 'Do you want to dress formally?';
+    String Q9 = 'Are you planning on walking a lot?';
+    String Q10 = 'Do you want to dress formally?';
+    String Q11 = 'Do you want to weear bright colors?';
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
